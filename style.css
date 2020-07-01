@@ -21,6 +21,7 @@ section {
 #name {
     color:#EC4C7A;
     font-weight: bold;
+    font-size: 30px;
 }
 .half_width {
     width: 40%;
@@ -53,6 +54,7 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     height: 650px;
+    padding-top: 120px;
 }
 .experience_area {
     background-image: url(images/exp-bg.png);
@@ -69,7 +71,7 @@ section {
     border-image-slice: 1;
 }  
 .experience_area h3 {
-    color: tomato;
+    color: #EC4C78;
 }
 .box_model {
     box-shadow: 5px 5px 15px orange;
