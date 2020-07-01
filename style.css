@@ -109,6 +109,7 @@ section {
     margin: 25px 300px;
     padding: 25px;
     height: 70px;
+    border-radius: 10px;
 }
 .client_area h4 {
     color: #707070;
