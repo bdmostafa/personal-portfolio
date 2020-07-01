@@ -51,6 +51,34 @@ section {
     background-position: right;
     height: 650px;
 }
+.experience_area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience_area_h2 {
+    text-align: center;
+    margin-bottom: 45px;
+}
+#full_stack {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightgreen, tomato);
+    border-image-slice: 1;
+}  
+.experience_area h3 {
+    color: tomato;
+}
+.box_model {
+    box-shadow: 5px 15px 30px orange;
+    border-radius: 10px;
+    height: 70%;
+    background-color: whitesmoke;
+}
+#junior {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blueviolet, skyblue);
+    border-image-slice: 1;
+}  
 .latest_work_area {
     text-align: center;
     background-image: url(images/latest-work-bg.png);
@@ -61,9 +89,10 @@ section {
     width: 100%;
 }
 .full_width img {
-    width: 30%;
+    width: 31%;
     padding: 10px;
     float: left;
+    height: 220px;
 }
 .client_area {
     background-image: url(images/footer-bg.png);
@@ -86,7 +115,7 @@ section {
     color: #3C3C3C;
 }
 .call_to_action p {
-    margin: 5px 0px 0px 0px;
+    margin: 5px 0px 10px 0px;
     color: whitesmoke;
 }
 .call_to_action p a {
