@@ -4,7 +4,7 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 h2, h3 {
-color: #202428;
+    color: #202428;
 }
 p {
     color: #707070;
@@ -102,6 +102,7 @@ section {
     background-position: left;
     background-repeat: no-repeat;
     text-align: center;
+    padding-top: 50px;
 }
 .call_to_action {
     background-color: #EC4C78;
@@ -114,7 +115,7 @@ section {
     margin-top: -15px;
 }
 .client_area p {
-    margin: 25px 325px;
+    margin: 50px 325px 75px 325px;
     color: #3C3C3C;
 }
 .call_to_action p {
@@ -163,10 +164,10 @@ footer p {
     color: #707070;
 }
 footer a {
-text-decoration: none;
-color: #707070;
+    text-decoration: none;
+    color: #707070;
 }
 footer a:hover {
-color: black;
-font-weight: bold;
+    color: black;
+    font-weight: bold;
 }
